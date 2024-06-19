@@ -1,0 +1,32 @@
+/* experiences page*/
+
+.experiences {
+    background-image: url(/background_and_misc/achievements.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10%;
+    color: white;
+    text-align: center;
+}
+
+.exps img {
+    width: 50%;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 5px;
+}
+
+.exps p {
+    width: 50%;
+    color: black;
+    border-style: dashed;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.expp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

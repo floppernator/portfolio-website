@@ -1,0 +1,27 @@
+.p1 {
+    background-color: #1a1d24;
+}
+
+.image-container {
+    text-align: center;
+    width: 100%;
+}
+
+.tasks {
+    font-size: 300%;
+    color: white;
+    font-family: arial;
+    text-align: left;
+    padding-left: 5%;
+}
+
+p {
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: large;
+    font-family: arial;
+    margin-top: auto;
+    margin-bottom: auto;
+}

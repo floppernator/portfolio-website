@@ -1,0 +1,95 @@
+/*intro styles*/
+
+#intro h1 {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 400%;
+    padding-left: 15%;
+    padding-top: 10%;
+    text-decoration: none;
+    font-weight: 600;
+    min-width: 280px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#intro h1 span {
+    position: relative;
+}
+
+#intro b {
+    color: white;
+}
+
+#intro p {
+    font-size: 120%;
+    padding-right: 45%;
+    color: white;
+    text-align: justify;
+    padding-bottom: 15%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.intro img {
+    float: right;
+    margin-right: 10%;
+    padding-top: 7.5%;
+}
+
+.intro {
+    background-color: #1a1d24;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.intro p {
+    color: white;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 125%;
+}
+
+
+/* about page */
+
+.about {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoa8nCtyIrSFiDCb0Dm8r6FlgMLPIucn45nw4z1Au1jQ&s);
+    width: 100%;
+    align-items: center;
+    padding: 1%;
+}
+
+.important h1 {
+    padding-top: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+.important {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-top: 5%;
+}
+
+.image-container {
+    text-align: center;
+    width: 30%;
+}
+
+.caption {
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    font-size: 150%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
