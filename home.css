@@ -36,11 +36,12 @@
 }
 
 .intro {
-    background-color: #1a1d24;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/background_and_misc/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding-bottom: 10%;
+    margin: 0px;
 }
 
 .intro p {
@@ -58,7 +59,7 @@
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoa8nCtyIrSFiDCb0Dm8r6FlgMLPIucn45nw4z1Au1jQ&s);
     width: 100%;
     align-items: center;
-    padding: 1%;
+    padding: 1% 0%;
 }
 
 .important h1 {

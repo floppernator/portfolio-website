@@ -29,6 +29,9 @@ header {
 
 .nav_links {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav_links li {
