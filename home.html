@@ -4,7 +4,7 @@
 
     <head>
         <title>
-            home page
+            Home
         </title>
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="home.css">
@@ -13,11 +13,19 @@
         <nav>
             <ul class="nav_links">
                 <li><a href="home.html">Home</a></li>
-                <li><a href="/Achievements/CCA(dimitros).pdf" rel="noopener noreferrer" target="_blank">Achievements</a></li>
+                <li>
+                    <a href="/Achievements/CCA(dimitros).pdf" rel="noopener noreferrer" target="_blank" style="display:flex;margin-top:5%;">
+                        Achievements <img src="/background_and_misc/external_link.svg" style="display:flex;margin:auto;padding:0%;"></a>
+                </li>
                 <li><a href="experiences.html">Experiences</a></li>
                 <li>
                     <a href="mailto:dimitroslim@gmail.com">
                         <img src="/background_and_misc/email.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/floppernator" rel="noopener noreferrer" target="_blank">
+                        <img src="/background_and_misc/github.svg">
                     </a>
                 </li>
             </ul>
@@ -26,41 +34,42 @@
 
     <body class="intro">
         <div id="intro">
-            <img src="/background_and_misc/placeholder.jpeg" alt="Visit to NP" width=25% style="border-radius:50%;">
-            <h1 class="animated-text">Hello,<br> I Am <b>Dimitros Lim </b></h1>
-            <!--
-            <div style="display:inline">
-                <div style="display:inline">
-                    <a href="mailto:dimitroslim@gmail.com" style="display:inline">
-                        <img src="/background_and_misc/email.svg">
-                    </a>
-                </div>
-            </div>
-            -->
+            <img src="/background_and_misc/placeholder.jpeg" alt="Visit to NP" width=25% style="border-radius:50%;" class="introimg">
+            <h1>Hello,<br> I Am <b>Dimitros Lim </b></h1>
             <p>A student currently studying in the School of Science and Technology (SST) and have taken up the computing AS in my school.</p>
-
         </div>
         <div class="about">
             <h1>About Me</h1>
             <p>I am a passionate student with a love for solving issues with code, as well as completing CTFs in my free time. With a strong foundation in python and other coding languages, I thrive on transforming ideas into reality.
         </div>
-        <h2 style="padding-top:10%;color:white;text-align:center;font-size:large;font-family:Arial, Helvetica, sans-serif">Some of the Projects that I have worked on/working on. Click on the images to find out more!</h2>
+        <h2 style="margin-top:5%;margin-bottom:5%;color:white;text-align:center;font-size:large;font-family:Arial, Helvetica, sans-serif">Some of the Projects that I have worked on/working on. Click on the images to find out more!</h2>
         <div class="important">
             <div class="image-container">
-                <div class="caption">Computer Vision Project</div>
                 <a href="p1.html">
-                    <img src="/background_and_misc/face filter.png">
+                    <img src="/background_and_misc/face filter.png" class="image">
+                </a>
+                <p class="status">Status: <b style="color:rgb(3, 219, 3)">Completed</b></p>
+                <p class="caption">Computer Vision Project</p>
+                <a href="https://github.com/floppernator/opencv-hat-filter" rel="noopener noreferrer" target="_blank">
+                    <button class="btn"><img src="background_and_misc/github.svg"></button>
                 </a>
             </div>
             <div class="image-container">
-                <div class="caption">Capstone Project</div>
                 <a href="p2.html">
-                    <img src="/background_and_misc/p2.jpg">
+                    <img src="/background_and_misc/p2.jpg" class="image">
                 </a>
+                <p class="status">Status: <b style="color:yellow">Ongoing</b></p>
+                <p class="caption">Capstone Project</p>
             </div>
             <div class="image-container">
-                <div class="caption">Integrated Design Challenge</div>
-                <a href="p3.html"><img src="/background_and_misc/p3.jpeg"></a>
+                <a href="p3.html">
+                    <img src="/background_and_misc/p3.jpeg" class="image">
+                </a>
+                <p class="status">Status: <b style="color:rgb(3, 219, 3)">Completed</b></p>
+                <p class="caption">Integrated Design Challenge</p>
+                <a href="https://github.com/floppernator/Integrated-Design-Challenge-" rel="noopener noreferrer" target="_blank">
+                    <button class="btn"><img src="background_and_misc/github.svg"></button>
+                </a>
             </div>
         </div>
     </body>

@@ -1,7 +1,12 @@
 /* experiences page*/
 
+@font-face {
+    font-family: inter;
+    src: url(https://fonts.googleapis.com/css?family=Inter);
+}
+
 .experiences {
-    background-image: url(/background_and_misc/achievements.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/background_and_misc/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,19 +15,49 @@
     text-align: center;
 }
 
-.exps img {
-    width: 50%;
-    border-style: solid;
-    border-radius: 5%;
-    border-width: 5px;
+.experiences {
+    margin: 0px;
 }
 
-.exps p {
+.container {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.exps {
     width: 50%;
-    color: black;
-    border-style: dashed;
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exps img {
+    border-radius: 16px;
+    width: 95%;
+    height: 95%;
+    margin-top: 2%;
+    filter: brightness(90%);
+}
+
+.year {
+    font-size: 80%;
+    color: gray;
+    font-family: inter;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.context {
+    font-family: inter;
+    text-align: left;
+    margin-left: 3%;
 }
 
 .expp {
