@@ -47,17 +47,27 @@
 }
 
 .year {
-    font-size: 80%;
-    color: gray;
+    font-size: 120%;
+    color: rgb(230, 230, 230);
     font-family: inter;
     text-align: left;
     margin-left: 3%;
+}
+
+a {
+    transition: color 0.45s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: gray;
 }
 
 .context {
     font-family: inter;
     text-align: left;
     margin-left: 3%;
+    font-size: 150%;
 }
 
 .expp {
